@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 
 const HeaderBlock = () => {
   return (
-    <View style={styles.headerBlockLayout}>
+    <View style={styles.containerStyle}>
       <Text style={styles.fontStyle}>
         You have no records!
       </Text>
@@ -15,9 +15,9 @@ const HeaderBlock = () => {
 };
 
 const styles = {
-  headerBlockLayout: {
+  containerStyle: {
     flex: 1,
-    minHeight: 100,
+    maxHeight: 125,
     justifyContent: 'center',
     alignItems: 'center'
   },
