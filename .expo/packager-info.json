@@ -1,9 +1,9 @@
 {
-  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 21580,
   "expoServerNgrokUrl": "https://y4-tty.anonymous.super-store.exp.direct",
   "packagerNgrokUrl": "https://packager.y4-tty.anonymous.super-store.exp.direct",
-  "ngrokPid": 23968,
+  "ngrokPid": 19560,
   "devToolsPort": 19002,
-  "packagerPort": 19001,
-  "packagerPid": 8552
+  "expoServerPort": 19000
 }

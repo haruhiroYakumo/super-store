@@ -1,15 +1,17 @@
 import React from 'react';
-import {View} from 'react-native';
+import { View } from 'react-native';
 import ExpoMaterialIcon from '../Common/ExpoMaterialIcon';
 
 const IconsContainer = () => {
+  // Just pass down all available navigation props
+
   return (
     <View style={styles.containerStyle}>
       <ExpoMaterialIcon/>
       <ExpoMaterialIcon/>
       <ExpoMaterialIcon/>
     </View>
-  )
+  );
 };
 
 const styles = {

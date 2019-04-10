@@ -13,6 +13,7 @@ class MenuScreen extends Component {
         <HeaderBlock/>
         {/* Header title */}
         <Header title="Categories"/>
+        {/* Navigation icons with navigation props */}
         <IconsContainer/>
       </View>
     );
