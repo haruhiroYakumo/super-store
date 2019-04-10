@@ -1,29 +1,27 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, TouchableOpacity, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { withNavigation } from 'react-navigation';
 
-const ExpoMaterialIcon = ({ navigation }) => {
-
-  // In 'react-navigation' we need to pass down navigation
-  // props to be able call 'navigation()' or 'push(methods)'
+const ExpoMaterialIcon = ({ navigation, iconColor, iconName, iconText }) => {
 
   // Navigate to a certain screen method
   const navigateTo = () => {
-    navigation.navigate('Banks');
+    navigation.navigate(iconText);
   };
 
   return (
     <View style={styles.containerStyle}>
-      <Ionicons
-        name="md-business"
-        size={65}
-        color="#d81b60"
-        onPress={navigateTo}
-      />
-      <Text style={styles.fontStyle}>
-        Button text
-      </Text>
+      <TouchableOpacity onPress={navigateTo}>
+        <Ionicons
+          size={65}
+          name={iconName}
+          color={iconColor}
+        />
+        <Text style={styles.fontStyle}>
+          {iconText}
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 
@@ -31,7 +29,7 @@ const ExpoMaterialIcon = ({ navigation }) => {
 
 const styles = {
   containerStyle: {
-    margin: 12,
+    margin: 15,
     marginRight: 15,
     marginLeft: 15,
     alignItems: 'center',
@@ -40,7 +38,8 @@ const styles = {
   },
   fontStyle: {
     fontWeight: 'bold',
-    fontSize: 13
+    fontSize: 13,
+    alignSelf: 'center'
   }
 };
 

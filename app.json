@@ -2,6 +2,7 @@
   "expo": {
     "name": "Super Store",
     "slug": "super-store",
+    "scheme": "my-scheme",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [

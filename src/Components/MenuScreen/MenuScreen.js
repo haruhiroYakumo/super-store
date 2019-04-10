@@ -6,6 +6,7 @@ import Header from '../Common/Header';
 import IconsContainer from './IconsContainer';
 
 class MenuScreen extends Component {
+
   render() {
     return (
       <View style={styles.containerStyle}>
