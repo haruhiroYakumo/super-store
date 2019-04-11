@@ -35,7 +35,18 @@ const AppNavigator = createStackNavigator(
     }
   },
   {
-    initialRouteName: 'Menu'
+    initialRouteName: 'Menu',
+    // Default navigation options for header customization
+    defaultNavigationOptions: {
+      headerStyle: {
+        backgroundColor: '#d81b60'
+      },
+      headerTintColor: 'white',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+        color: 'white'
+      }
+    }
   }
 );
 

@@ -1,14 +1,16 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const HeaderBlock = () => {
+const HeaderBlock = ({ systemMessages }) => {
+
+  // Component to represent some various onscreen info, tips and hints
   return (
     <View style={styles.containerStyle}>
       <Text style={styles.fontStyle}>
-        You have no records!
+        {systemMessages.firstLine}
       </Text>
       <Text style={styles.fontStyle}>
-        What information do you want to save now?
+        {systemMessages.secondLine}
       </Text>
     </View>
   );
@@ -16,13 +18,17 @@ const HeaderBlock = () => {
 
 const styles = {
   containerStyle: {
+    padding: 15,
     flex: 1,
     maxHeight: 125,
     justifyContent: 'center',
     alignItems: 'center'
   },
   fontStyle: {
-    color: '#a00037'
+    color: '#d81b60',
+    textAlign: 'center',
+    fontSize: 16,
+    marginBottom: 5
   }
 };
 
