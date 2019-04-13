@@ -5,12 +5,15 @@ import { applyMiddleware, createStore } from 'redux';
 // Components
 import ReactNavigation from './src/ReactNavigation/ReactNavigation';
 import rootReducer from './src/Redux/reducers';
+import rootSaga from './src/Redux/saga';
 
 // Add redux-saga middleware
 const sagaMiddleware = createSagaMiddleware();
+// Combine reducers with provided middleware
 const createStoreWithMiddleware = createStore(rootReducer, applyMiddleware(sagaMiddleware));
 
-// sagaMiddleware.run(rootSaga);
+// Redux-saga root saga
+sagaMiddleware.run(rootSaga);
 
 class App extends Component {
   render() {
