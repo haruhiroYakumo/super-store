@@ -4,7 +4,8 @@ import { createAppContainer, createStackNavigator } from 'react-navigation';
 import MenuScreen from '../Components/MenuScreen/MenuScreen';
 import NotesScreen from '../Components/NotesScreen/NotesScreen';
 import BanksScreen from '../Components/BanksScreen/BanksScreen';
-import BanksForms from '../Components/BanksScreen/BanksForms/BanksForms';
+import BanksForms from '../Components/BanksScreen/Componenets/BanksForms';
+import CardsScreen from '../Components/BanksScreen/CardsScreen';
 
 // Main application navigation stack
 const AppNavigator = createStackNavigator(
@@ -30,7 +31,13 @@ const AppNavigator = createStackNavigator(
     BanksForms: {
       screen: BanksForms,
       navigationOptions: {
-        title: 'Credit card info'
+        title: 'Credit card form'
+      }
+    },
+    CardsScreen: {
+      screen: CardsScreen,
+      navigationOptions: {
+        title: 'Credit cards'
       }
     }
   },

@@ -1,11 +1,18 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const Header = (props) => {
+/**
+ * Reusable header component. Props to pass:
+ * { header } - label name
+ * @param title
+ * @return {*}
+ */
+
+const Header = ({ title }) => {
   return (
     <View style={styles.containerBorder}>
       <Text style={styles.headerStyle}>
-        {props.title}
+        {title}
       </Text>
     </View>
   );

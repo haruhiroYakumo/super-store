@@ -3,25 +3,39 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import { withNavigation } from 'react-navigation';
 import { Ionicons } from '@expo/vector-icons';
 
-const WideItemButton = ({ navigation }) => {
+/**
+ * Reusable button with navigation. Props:
+ * { label } - button label;
+ * { navigateTo } - navigation destination;
+ * { iconName } - icon;
+ * { iconColor } - icon color;
+ * @param navigation
+ * @param label
+ * @param navigateTo
+ * @param IconColor
+ * @param iconName
+ * @return {*}
+ */
+
+const WideItemButton = ({ navigation, label, navigateTo, iconName, iconColor }) => {
   const { buttonStyle, textStyle, iconStyle } = styles;
 
   return (
     <View>
       <TouchableOpacity
         style={buttonStyle}
-        onPress={() => navigation.navigate('BanksForms')}
+        onPress={() => navigation.navigate(navigateTo)}
       >
         <Text
           style={textStyle}
         >
-          Save credit card number
+          {label}
         </Text>
         <Ionicons
           style={iconStyle}
           size={65}
-          name="md-card"
-          color="#d81b60"
+          name={iconName}
+          color={iconColor}
         />
       </TouchableOpacity>
     </View>

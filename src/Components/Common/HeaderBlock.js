@@ -1,6 +1,13 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
+/**
+ * Reusable component for creating info messages. Props:
+ * - { systemMessages } - message object.
+ * @param systemMessages
+ * @return {*}
+ */
+
 const HeaderBlock = ({ systemMessages }) => {
 
   // Component to represent some various onscreen info, tips and hints

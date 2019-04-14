@@ -18,7 +18,12 @@ class BanksScreen extends Component {
         {/* If we have no records, show this message */}
         {null || <HeaderBlock systemMessages={systemMessages.banksScreen}/>}
         {/* Forms navigation buttons */}
-        <WideItemButton/>
+        <WideItemButton
+          label="Credit cards"
+          navigateTo="CardsScreen"
+          iconName="md-card"
+          iconColor="#d81b60"
+        />
       </View>
     );
   }
