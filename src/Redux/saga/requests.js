@@ -26,3 +26,16 @@ export const requestAllCardData = async () => {
     return error;
   }
 };
+
+/**
+ * DELETE request card with a given 'id'
+ * @param payload
+ * @return {Promise<*>}
+ */
+export const deleteCard = async (payload) => {
+  try {
+    return await axios.delete(`${API}/banks/cards/${payload.data}`);
+  } catch (error) {
+    return error;
+  }
+};

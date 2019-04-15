@@ -1,7 +1,9 @@
 import React, { PureComponent } from 'react';
-import { Alert, SwipeableFlatList, Text, TouchableHighlight, View } from 'react-native';
+import { SwipeableFlatList, Text, TouchableHighlight, View } from 'react-native';
 import { connect } from 'react-redux';
+
 import { requestAllCards } from '../../Redux/actions';
+import QuickActionButtons from './Componenets/QuickActionButtons';
 
 // Component for rendering card numbers item
 const ListItem = ({ number, info }) => {
@@ -45,28 +47,12 @@ class CardsList extends PureComponent {
   extractKeys = (item) => item._id;
 
   /**
-   * Render two delete and edit action buttons
+   * Render quick action buttons and pass down '_id' prop
+   * @param item
    * @return {*}
    */
-  renderQuickActionButtons = () => {
-    const { actionsContainer, actionButton, actionButtonText, actionButtonDestructive, actionButtonDestructiveText, actionButtonEditText } = styles;
-
-    return (
-      <View style={actionsContainer}>
-        <TouchableHighlight
-          style={actionButton}
-          onPress={() => Alert.alert('Tips', 'You can do something with this edit action!')}
-        >
-          <Text style={[actionButtonText, actionButtonEditText]}>Edit</Text>
-        </TouchableHighlight>
-        <TouchableHighlight
-          style={[actionButton, actionButtonDestructive]}
-          onPress={() => Alert.alert('Tips', 'You can do something with that delete action!')}
-        >
-          <Text style={[actionButtonText, actionButtonDestructiveText]}>Remove</Text>
-        </TouchableHighlight>
-      </View>
-    );
+  renderQuickActions = ({ item }) => {
+    return (<QuickActionButtons item={item._id}/>);
   };
 
   render() {
@@ -78,7 +64,7 @@ class CardsList extends PureComponent {
         data={cardList}
         keyExtractor={this.extractKeys}
         renderItem={this.renderItemList}
-        renderQuickActions={this.renderQuickActionButtons}
+        renderQuickActions={this.renderQuickActions}
         bounceFirstRowOnMount
       />
     );
@@ -95,30 +81,6 @@ const styles = {
   },
   listItemText: {
     fontSize: 20,
-    color: '#d81b60'
-  },
-  actionsContainer: {
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-    alignItems: 'center'
-  },
-  actionButton: {
-    padding: 10,
-    width: 80
-  },
-  actionButtonText: {
-    textAlign: 'center',
-    fontSize: 16,
-    fontWeight: 'bold'
-  },
-  actionButtonDestructive: {
-    backgroundColor: '#d81b60'
-  },
-  actionButtonDestructiveText: {
-    color: 'white'
-  },
-  actionButtonEditText: {
     color: '#d81b60'
   }
 };

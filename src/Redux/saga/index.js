@@ -1,11 +1,10 @@
 import { call, put, takeLatest } from 'redux-saga/effects';
 
 import * as ActionTypes from '../constants';
-import { requestAllCardData, sendCardData } from './requests';
-import { saveAllCards, saveSingleCard } from '../actions';
+import { deleteCard, requestAllCardData, sendCardData } from './requests';
+import { deleteCardItem, saveAllCards, saveSingleCard } from '../actions';
 
 function* postCardRequest(payload) {
-  // Request
   const { data, error } = yield call(sendCardData, payload);
 
   // Check existence either of valid payload or error object
@@ -26,9 +25,20 @@ function* getAllCards() {
   }
 }
 
+function* deleteCardRequest(payload) {
+  const { data, error } = yield call(deleteCard, payload);
+
+  if (data) {
+    yield put(deleteCardItem(data._id));
+  } else {
+    console.log('Saga delete card success', error);
+  }
+}
+
 // TODO
 // Use cleaner way to combine sagas
 export default function* rootSaga() {
   yield takeLatest(ActionTypes.GET_ALL_CARDS, getAllCards);
   yield takeLatest(ActionTypes.POST_CARD_DATA, postCardRequest);
+  yield takeLatest(ActionTypes.DELETE_CARD, deleteCardRequest);
 }
