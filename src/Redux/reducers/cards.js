@@ -13,7 +13,6 @@ export default function (state = [], { type, data }) {
         cards: [data, ...state.cards]
       };
     case ActionTypes.DELETE_CARD_ITEM:
-      console.log('Reducer ', state.cards, data);
       return {
         ...state,
         cards: state.cards.filter(item => item._id !== data)
