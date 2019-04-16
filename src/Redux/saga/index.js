@@ -2,7 +2,11 @@ import { call, put, takeLatest } from 'redux-saga/effects';
 
 import * as ActionTypes from '../constants';
 import { deleteCard, requestAllCardData, sendCardData } from './requests';
-import { deleteCardItem, saveAllCards, saveSingleCard } from '../actions';
+import { closeModal, deleteCardItem, saveAllCards, saveSingleCard } from '../actions';
+import NavigationService from '../../ReactNavigation/NavigationService';
+
+// This is experimental navigation dispatch action within redux-saga
+// yield NavigationService.navigate('CardsScreen');
 
 function* postCardRequest(payload) {
   const { data, error } = yield call(sendCardData, payload);
@@ -10,8 +14,9 @@ function* postCardRequest(payload) {
   // Check existence either of valid payload or error object
   if (data) {
     yield put(saveSingleCard(data));
+    yield NavigationService.navigate('CardsScreen');
   } else {
-    console.log('Saga errors', error);
+    console.log('Saga errors ', error);
   }
 }
 
@@ -30,6 +35,7 @@ function* deleteCardRequest(payload) {
 
   if (data) {
     yield put(deleteCardItem(data._id));
+    yield put(closeModal());
   } else {
     console.log('Saga delete card success', error);
   }

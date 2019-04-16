@@ -16,6 +16,7 @@ const createStoreWithMiddleware = createStore(rootReducer, applyMiddleware(sagaM
 sagaMiddleware.run(rootSaga);
 
 class App extends Component {
+
   render() {
     return (
       <Provider store={createStoreWithMiddleware}>

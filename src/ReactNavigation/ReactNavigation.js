@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { createAppContainer, createStackNavigator } from 'react-navigation';
 // Components
+import NavigationService from './NavigationService';
 import MenuScreen from '../Components/MenuScreen/MenuScreen';
 import NotesScreen from '../Components/NotesScreen/NotesScreen';
 import BanksScreen from '../Components/BanksScreen/BanksScreen';
@@ -63,7 +64,11 @@ const AppContainer = createAppContainer(AppNavigator);
 class ReactNavigation extends Component {
   render() {
     return (
-      <AppContainer/>
+      <AppContainer
+        ref={navigatorRef => {
+          NavigationService.setTopLevelNavigator(navigatorRef);
+        }}
+      />
     );
   }
 }

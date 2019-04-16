@@ -4957,6 +4957,11 @@ react-native-maps@expo/react-native-maps#v0.22.1-exp.0:
   version "0.22.1"
   resolved "https://codeload.github.com/expo/react-native-maps/tar.gz/e6f98ff7272e5d0a7fe974a41f28593af2d77bb2"
 
+react-native-navigation-actions@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-navigation-actions/-/react-native-navigation-actions-1.0.4.tgz#774f06980f7e1ecfa0af89f05a2cf6ccf94c88eb"
+  integrity sha512-0kWMjLY+Yh7IsKGGB1wFCAq/WXlWRXOOtjnLaW6aWSrcjLYiX3ow7Iu+scmlvbQMew9F58loINjOeHJQ7L57cQ==
+
 react-native-reanimated@1.0.0-alpha.11:
   version "1.0.0-alpha.11"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.0.0-alpha.11.tgz#b78c839bae878d149561b56a3c750414957ea86d"
