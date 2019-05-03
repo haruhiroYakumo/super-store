@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a4f96b6-37f8-4b3e-90e8-a1e08d52f1ad" name="Default Changelist" comment="&quot;Redux-saga configuration for 'post' request. Fixed problem with accessing localhost from Expo.&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Config/applicationVariables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/saga/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/saga/requests.js" afterDir="false" />
+    <list default="true" id="8a4f96b6-37f8-4b3e-90e8-a1e08d52f1ad" name="Default Changelist" comment="&quot;Readme merge&quot;">
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Haruhiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Haruhiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BanksScreen/BanksForms/BanksForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BanksScreen/BanksForms/BanksForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BanksScreen/CardsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BanksScreen/CardsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BanksScreen/Componenets/BanksForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BanksScreen/Componenets/CardForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BanksScreen/Componenets/QuickActionButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BanksScreen/Componenets/QuickActionButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/TextInoutArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/TextInoutArea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/TextInputSimple.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/TextInputSimple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReactNavigation/ReactNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReactNavigation/ReactNavigation.js" afterDir="false" />
     </list>
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,23 +23,47 @@
     <splitter split-orientation="horizontal" split-proportion="0.45076996">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/BanksForms/BanksForms.js">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/Common/TextInputSimple.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4">
-                  <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+                <state relative-caret-position="465">
+                  <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Config/applicationVariables.js">
+            <entry file="file://$PROJECT_DIR$/src/Components/Common/TextInoutArea.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="56">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <state relative-caret-position="217">
+                  <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/Componenets/CardForm.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="314">
+                  <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/CardsList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="461">
+                  <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#45#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -52,36 +73,25 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Redux/saga/requests.js">
+            <entry file="file://$PROJECT_DIR$/src/Redux/saga/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+                <state relative-caret-position="209">
+                  <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
                   <folding>
-                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#0#59#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/BanksForms/BanksForms.js">
+            <entry file="file://$PROJECT_DIR$/src/ReactNavigation/ReactNavigation.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+                <state relative-caret-position="593">
+                  <caret line="31" column="14" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="14" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Redux/saga/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#0#54#0" expanded="true" />
+                    <element signature="e#133#185#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -91,6 +101,11 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>modalButton</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -98,31 +113,45 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Components/NotesScreen/NotesScreen.js" />
-        <option value="$PROJECT_DIR$/src/Components/Common/Header.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/ReactNavigation/navigationItems.js" />
         <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/src/Redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuScreen/IconsContainer.js" />
         <option value="$PROJECT_DIR$/src/Components/Common/ExpoMaterialIcon.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuScreen/HeaderBlock/HeaderBlock.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuScreen/MenuScreen.js" />
         <option value="$PROJECT_DIR$/src/Components/Common/systemMessages.js" />
-        <option value="$PROJECT_DIR$/src/Components/Common/HeaderBlock.js" />
-        <option value="$PROJECT_DIR$/src/Components/Common/WideItemButton.js" />
-        <option value="$PROJECT_DIR$/src/Components/BanksScreen/BanksScreen.js" />
-        <option value="$PROJECT_DIR$/src/ReactNavigation/ReactNavigation.js" />
         <option value="$PROJECT_DIR$/src/Components/Common/TextInoutSimple.js" />
-        <option value="$PROJECT_DIR$/src/Components/Common/TextInputSimple.js" />
-        <option value="$PROJECT_DIR$/src/Components/Common/TextInoutArea.js" />
         <option value="$PROJECT_DIR$/src/Components/Common/SubmitButton.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Components/Common/Label.js" />
+        <option value="$PROJECT_DIR$/src/Components/Common/ContainerView.js" />
+        <option value="$PROJECT_DIR$/src/Components/BanksScreen/BanksScreen.js" />
+        <option value="$PROJECT_DIR$/src/Components/Common/Header.js" />
+        <option value="$PROJECT_DIR$/src/Components/Common/WideItemButton.js" />
+        <option value="$PROJECT_DIR$/src/Components/Common/HeaderBlock.js" />
+        <option value="$PROJECT_DIR$/src/Components/BanksScreen/BanksForms/BanksForms.js" />
+        <option value="$PROJECT_DIR$/src/Components/BanksScreen/CardsScreen.js" />
+        <option value="$PROJECT_DIR$/src/Redux/reducers/modal.js" />
+        <option value="$PROJECT_DIR$/src/Redux/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/Common/SimpleModal.js" />
+        <option value="$PROJECT_DIR$/src/Redux/saga/requests.js" />
         <option value="$PROJECT_DIR$/src/Redux/constants.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/Redux/actions/index.js" />
         <option value="$PROJECT_DIR$/src/Config/applicationVariables.js" />
+        <option value="$PROJECT_DIR$/src/Redux/reducers/cards.js" />
+        <option value="$PROJECT_DIR$/src/Redux/reducers/navigation.js" />
+        <option value="$PROJECT_DIR$/src/ReactNavigation/navigation.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/src/ReactNavigation/navigator.js" />
         <option value="$PROJECT_DIR$/src/Redux/saga/index.js" />
-        <option value="$PROJECT_DIR$/src/Redux/saga/requests.js" />
-        <option value="$PROJECT_DIR$/src/Components/BanksScreen/BanksForms/BanksForms.js" />
+        <option value="$PROJECT_DIR$/src/ReactNavigation/NavigationService.js" />
+        <option value="$PROJECT_DIR$/src/Components/BanksScreen/Componenets/BanksForms.js" />
+        <option value="$PROJECT_DIR$/src/ReactNavigation/ReactNavigation.js" />
+        <option value="$PROJECT_DIR$/src/Components/BanksScreen/CardsList.js" />
+        <option value="$PROJECT_DIR$/src/Components/Common/TextInoutArea.js" />
+        <option value="$PROJECT_DIR$/src/Components/BanksScreen/Componenets/QuickActionButtons.js" />
+        <option value="$PROJECT_DIR$/src/Components/Common/TextInputSimple.js" />
+        <option value="$PROJECT_DIR$/src/Components/BanksScreen/Componenets/CardForm.js" />
       </list>
     </option>
   </component>
@@ -141,6 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +203,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="BanksScreen" type="462c0819:PsiDirectoryNode" />
-              <item name="BanksForms" type="462c0819:PsiDirectoryNode" />
+              <item name="Componenets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="super-store" type="b2602c69:ProjectViewProjectNode" />
@@ -224,22 +255,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555163535146" />
-    <property name="last_opened_file_path" value="$USER_HOME$/www" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555771136887" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -313,7 +344,27 @@
       <workItem from="1554926736141" duration="11687000" />
       <workItem from="1554974612382" duration="7235000" />
       <workItem from="1555070127714" duration="25000" />
-      <workItem from="1555106662416" duration="11719000" />
+      <workItem from="1555106662416" duration="11907000" />
+      <workItem from="1555179784128" duration="143000" />
+      <workItem from="1555180216879" duration="728000" />
+      <workItem from="1555239337339" duration="8472000" />
+      <workItem from="1555268905403" duration="137000" />
+      <workItem from="1555269404388" duration="13833000" />
+      <workItem from="1555325687805" duration="28664000" />
+      <workItem from="1555430557102" duration="9768000" />
+      <workItem from="1555673285254" duration="4087000" />
+      <workItem from="1555751743610" duration="8600000" />
+      <workItem from="1555802947483" duration="12000" />
+      <workItem from="1555803567834" duration="80000" />
+      <workItem from="1555966990571" duration="229000" />
+      <workItem from="1555967633880" duration="97000" />
+      <workItem from="1556393380974" duration="662000" />
+      <workItem from="1556398848459" duration="24000" />
+      <workItem from="1556399493969" duration="77000" />
+      <workItem from="1556485198150" duration="52000" />
+      <workItem from="1556664296135" duration="710000" />
+      <workItem from="1556870670736" duration="637000" />
+      <workItem from="1556876405481" duration="7925000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Improved general and created navigations buttons layout&quot;">
       <created>1554900046092</created>
@@ -343,16 +394,82 @@
       <option name="project" value="LOCAL" />
       <updated>1554988256624</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;Redux-saga configuration for 'post' request. Fixed problem with accessing localhost from Expo.&quot;">
+      <created>1555163453711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555163453711</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;Readme merge&quot;">
+      <created>1555163576774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555163576774</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;Get all cards. Render in a &lt;FlatList/&gt;. Update array with a single card to the first position.&quot;">
+      <created>1555285515139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555285515140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;Replace &lt;FlatList/&gt; by &lt;SwipeableFlatList/&gt; with two action buttons&quot;">
+      <created>1555329043374</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555329043374</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;Created Modal component and delete item functionality.&quot;">
+      <created>1555359854149</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555359854149</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&quot;Heroku API&quot;">
+      <created>1555369701628</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555369701628</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&quot;On confirm modal close action. Top-level application navigation via ref within redux-saga generators.&quot;">
+      <created>1555438502961</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555438502961</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&quot;Navigation within redux-saga. On modal confirm close action&quot;">
+      <created>1555438592914</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555438592914</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57316000" />
+    <option name="totallyTimeSpent" value="142441000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15221734" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13823412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -360,20 +477,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Messages" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984716" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4994007" weight="0.33360323" />
-      <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50059927" side_tool="true" weight="0.17165992" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32955465" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4990012" visible="true" weight="0.34674177" />
+      <window_info anchor="bottom" id="Docker" order="8" weight="0.32984716" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009988" side_tool="true" weight="0.23491552" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.7659919" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.23572004" />
       <window_info anchor="bottom" id="LuaCheck" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32955465" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,7 +512,14 @@
     <MESSAGE value="&quot;Banking page and form styling. React-redux and redux-form connection&quot;" />
     <MESSAGE value="&quot;Refactoring into more Common components. Added styling for navigation header&quot;" />
     <MESSAGE value="&quot;Redux-saga configuration for 'post' request. Fixed problem with accessing localhost from Expo.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Redux-saga configuration for 'post' request. Fixed problem with accessing localhost from Expo.&quot;" />
+    <MESSAGE value="&quot;Readme merge&quot;" />
+    <MESSAGE value="&quot;Get all cards. Render in a &lt;FlatList/&gt;. Update array with a single card to the first position.&quot;" />
+    <MESSAGE value="&quot;Replace &lt;FlatList/&gt; by &lt;SwipeableFlatList/&gt; with two action buttons&quot;" />
+    <MESSAGE value="&quot;Created Modal component and delete item functionality.&quot;" />
+    <MESSAGE value="&quot;Heroku API&quot;" />
+    <MESSAGE value="&quot;On confirm modal close action. Top-level application navigation via ref within redux-saga generators.&quot;" />
+    <MESSAGE value="&quot;Navigation within redux-saga. On modal confirm close action&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Navigation within redux-saga. On modal confirm close action&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Components/NotesScreen/NotesScreen.js">
@@ -421,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Common/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Common/ExpoMaterialIcon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -438,30 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Common/HeaderBlock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReactNavigation/navigationItems.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/BanksScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,27 +584,267 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Common/systemMessages.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="31">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Common/WideItemButton.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/Label.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="93">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/ContainerView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-navigation/typescript/react-navigation.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="1409" column="18" selection-start-line="1409" selection-start-column="18" selection-end-line="1409" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/HeaderBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/SimpleModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2697">
+          <caret line="91" column="3" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Config/applicationVariables.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/systemMessages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/reducers/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/reducers/navigation.js" />
+    <entry file="file://$PROJECT_DIR$/src/ReactNavigation/navigation.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sane/src/node_watcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="305" selection-start-line="305" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReactNavigation/navigator.js" />
+    <entry file="file://$PROJECT_DIR$/src/Redux/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/SubmitButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/BanksScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReactNavigation/NavigationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#197#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="280" column="13" selection-start-line="280" selection-start-column="4" selection-end-line="280" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/reducers/cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/saga/requests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Common/WideItemButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1645">
+          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/saga/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReactNavigation/ReactNavigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#133#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/CardsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/CardsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/Componenets/QuickActionButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Common/TextInputSimple.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="465">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -515,121 +853,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Common/TextInoutArea.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="217">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/Componenets/CardForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#197#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Common/SubmitButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReactNavigation/ReactNavigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#133#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config/applicationVariables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/saga/requests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/saga/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/BanksScreen/BanksForms/BanksForms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="314">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>

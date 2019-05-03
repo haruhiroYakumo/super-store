@@ -3,12 +3,12 @@ import { TextInput } from 'react-native';
 
 // Textarea input component
 
-const TextInputArea = ({ input: { onChange, ...restInput } }) => {
+const TextInputArea = ({ defaultValue, input: { onChange } }) => {
   return (
     <TextInput
       style={styles.inputStyleTextArea}
+      defaultValue={defaultValue ? defaultValue : ''}
       onChangeText={onChange}
-      {...restInput}
       multiline
     />
   );

@@ -52,21 +52,26 @@ class CardsList extends PureComponent {
    * @return {*}
    */
   renderQuickActions = ({ item }) => {
-    return (<QuickActionButtons item={item._id}/>);
+    return (<QuickActionButtons item={item}/>);
   };
 
   render() {
     const cardList = this.props.cardsData.cards;
 
     return (
-      <SwipeableFlatList
-        maxSwipeDistance={160}
-        data={cardList}
-        keyExtractor={this.extractKeys}
-        renderItem={this.renderItemList}
-        renderQuickActions={this.renderQuickActions}
-        bounceFirstRowOnMount
-      />
+      <View>
+        {cardList ?
+          <SwipeableFlatList
+            maxSwipeDistance={160}
+            data={cardList}
+            keyExtractor={this.extractKeys}
+            renderItem={this.renderItemList}
+            renderQuickActions={this.renderQuickActions}
+            bounceFirstRowOnMount
+          /> :
+          <Text styles={styles.placeholderStyles}>There is no saved cards, or you have bad network connection</Text>
+        }
+      </View>
     );
   }
 }
@@ -82,6 +87,12 @@ const styles = {
   listItemText: {
     fontSize: 20,
     color: '#d81b60'
+  },
+  placeholderStyles: {
+    fontSize: 18,
+    justifyContent: 'center',
+    paddingTop: 10,
+    alignItems: 'center'
   }
 };
 

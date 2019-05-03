@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Alert, Text, TouchableOpacity, View } from 'react-native';
+import { Text, TouchableOpacity, View } from 'react-native';
+import { withNavigation } from 'react-navigation';
 import { connect } from 'react-redux';
 
 import { openModal } from '../../../Redux/actions';
@@ -20,18 +21,22 @@ class QuickActionButtons extends Component {
   render() {
     // Styles
     const { actionsContainer, actionButton, actionButtonText, actionButtonDestructive, actionButtonDestructiveText, actionButtonEditText } = styles;
+    const { navigation } = this.props;
 
     return (
       <View style={actionsContainer}>
         <TouchableOpacity
           style={actionButton}
-          onPress={() => Alert.alert('Tips', 'You can do something with that edit action!')}
+          onPress={() => navigation.navigate('BanksForms', {
+            data: this.props.item,
+            action: 'edit-card'
+          })}
         >
           <Text style={[actionButtonText, actionButtonEditText]}>Edit</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={[actionButton, actionButtonDestructive]}
-          onPress={() => this.openModal(this.props.item)}
+          onPress={() => this.openModal(this.props.item._id)}
         >
           <Text style={[actionButtonText, actionButtonDestructiveText]}>Remove</Text>
         </TouchableOpacity>
@@ -71,4 +76,4 @@ const mapDispatchToProps = dispatch => ({
   toggleModal: data => dispatch(openModal(data))
 });
 
-export default connect(null, mapDispatchToProps)(QuickActionButtons);
+export default withNavigation(connect(null, mapDispatchToProps)(QuickActionButtons));

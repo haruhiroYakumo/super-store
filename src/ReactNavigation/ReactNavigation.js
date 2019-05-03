@@ -5,8 +5,8 @@ import NavigationService from './NavigationService';
 import MenuScreen from '../Components/MenuScreen/MenuScreen';
 import NotesScreen from '../Components/NotesScreen/NotesScreen';
 import BanksScreen from '../Components/BanksScreen/BanksScreen';
-import BanksForms from '../Components/BanksScreen/Componenets/BanksForms';
 import CardsScreen from '../Components/BanksScreen/CardsScreen';
+import CardForm from '../Components/BanksScreen/Componenets/CardForm';
 
 // Main application navigation stack
 const AppNavigator = createStackNavigator(
@@ -30,7 +30,7 @@ const AppNavigator = createStackNavigator(
       }
     },
     BanksForms: {
-      screen: BanksForms,
+      screen: CardForm,
       navigationOptions: {
         title: 'Credit card form'
       }

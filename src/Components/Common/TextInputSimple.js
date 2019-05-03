@@ -1,11 +1,22 @@
 import React from 'react';
 import { TextInput } from 'react-native';
 
-// Simple input component
+/**
+ * Simple single-line text input with the support of
+ * setting a 'defaultValue'
+ * @param defaultValue
+ * @param onChange
+ * @returns {*}
+ * @constructor
+ */
 
-const TextInputSimple = ({ input: { onChange, ...restInput } }) => {
+const TextInputSimple = ({ defaultValue, input: { onChange } }) => {
   return (
-    <TextInput style={styles.inputStyle} onChangeText={onChange} {...restInput} />
+    <TextInput
+      defaultValue={defaultValue ? defaultValue : ''}
+      style={styles.inputStyle}
+      onChangeText={onChange}
+    />
   );
 };
 
