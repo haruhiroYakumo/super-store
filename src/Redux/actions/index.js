@@ -82,5 +82,27 @@ export function deleteCard(data) {
 export function deleteCardItem(data) {
   return {
     type: ActionTypes.DELETE_CARD_ITEM, data
-  }
+  };
+}
+
+/**
+ * Update single card request
+ * @param data
+ * @returns {{data: *, type: string}}
+ */
+export function updateCard(data) {
+  return {
+    type: ActionTypes.UPDATE_CARD, data
+  };
+}
+
+/**
+ * Update single card record in the reducer
+ * @param data
+ * @returns {{data: *, type: string}}
+ */
+export function updateCardItem(data) {
+  return {
+    type: ActionTypes.UPDATE_CARD_ITEM, data
+  };
 }

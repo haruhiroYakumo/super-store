@@ -1,8 +1,8 @@
 import { call, put, takeLatest } from 'redux-saga/effects';
 
 import * as ActionTypes from '../constants';
-import { deleteCard, requestAllCardData, sendCardData } from './requests';
-import { closeModal, deleteCardItem, saveAllCards, saveSingleCard } from '../actions';
+import { deleteCard, requestAllCardData, sendCardData, updateCard } from './requests';
+import { closeModal, deleteCardItem, saveAllCards, saveSingleCard, updateCardItem } from '../actions';
 import NavigationService from '../../ReactNavigation/NavigationService';
 
 // This is experimental navigation dispatch action within redux-saga
@@ -41,10 +41,22 @@ function* deleteCardRequest(payload) {
   }
 }
 
+function* updateCardRequest(payload) {
+  const { data, error } = yield call(updateCard, payload);
+
+  if (data) {
+    yield put(updateCardItem(data.card));
+    yield NavigationService.navigate('CardsScreen');
+  } else {
+    console.log('update card saga', error);
+  }
+}
+
 // TODO
 // Use cleaner way to combine sagas
 export default function* rootSaga() {
   yield takeLatest(ActionTypes.GET_ALL_CARDS, getAllCards);
   yield takeLatest(ActionTypes.POST_CARD_DATA, postCardRequest);
   yield takeLatest(ActionTypes.DELETE_CARD, deleteCardRequest);
+  yield takeLatest(ActionTypes.UPDATE_CARD, updateCardRequest);
 }

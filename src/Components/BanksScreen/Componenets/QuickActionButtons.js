@@ -21,14 +21,14 @@ class QuickActionButtons extends Component {
   render() {
     // Styles
     const { actionsContainer, actionButton, actionButtonText, actionButtonDestructive, actionButtonDestructiveText, actionButtonEditText } = styles;
-    const { navigation } = this.props;
+    const { navigation, item } = this.props;
 
     return (
       <View style={actionsContainer}>
         <TouchableOpacity
           style={actionButton}
           onPress={() => navigation.navigate('BanksForms', {
-            data: this.props.item,
+            data: item,
             action: 'edit-card'
           })}
         >
@@ -36,7 +36,7 @@ class QuickActionButtons extends Component {
         </TouchableOpacity>
         <TouchableOpacity
           style={[actionButton, actionButtonDestructive]}
-          onPress={() => this.openModal(this.props.item._id)}
+          onPress={() => this.openModal(item._id)}
         >
           <Text style={[actionButtonText, actionButtonDestructiveText]}>Remove</Text>
         </TouchableOpacity>

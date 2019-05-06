@@ -39,3 +39,19 @@ export const deleteCard = async (payload) => {
     return error;
   }
 };
+
+/**
+ * UPDATE request card with a given 'id'
+ * @param payload
+ * @returns {Promise<*>}
+ */
+export const updateCard = async (payload) => {
+  try {
+    return await axios.put(`${API}/banks/cards/${payload.data._id}`, {
+      info: payload.data.info,
+      number: payload.data.number
+    });
+  } catch (error) {
+    return error;
+  }
+};
